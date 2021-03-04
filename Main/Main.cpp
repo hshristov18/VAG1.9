@@ -2,6 +2,7 @@
 #include <winuser.h>
 #include <wingdi.h>
 #include <commctrl.h>
+#include "Data.h"
 
 const HBRUSH bgColor = CreateSolidBrush(RGB(200, 200, 200));
 
