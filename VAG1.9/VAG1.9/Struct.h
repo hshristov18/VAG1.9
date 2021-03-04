@@ -11,18 +11,17 @@ struct STUDENT
 	//string secondRole;
 	string email;
 };
-struct TEAM;
 struct TEACHER {
 	string firstName;
 	string surname;
-	vector<TEAM> teams;
+	vector<string> teams;
 	string email;
 };
 struct TEAM
 {
 	string name;
 	string description;
-	int date; // dd/mm/yyyy
+	string date; // dd/mm/yyyy
 	string status;
 	vector<STUDENT> students;
 	string project;
