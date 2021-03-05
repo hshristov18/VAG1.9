@@ -9,3 +9,5 @@ STUDENT generateStudent();
 TEACHER generateTeacher(); 
 
 TEAM generateTeam();
+
+SCHOOL generateSchool();

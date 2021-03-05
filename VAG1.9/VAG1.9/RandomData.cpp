@@ -40,5 +40,40 @@ string randomEmail() {
 }
 
 string randomDate() {
+	string day, year, month;
+	year = to_string(rand() % 30 + 2000);
+	month = to_string(rand() % 12 + 1);
 	
+	if (month == "1" || month == "3" || month == "5" || month == "8" || month == "7" || month == "10" || month == "12")
+	{
+		return to_string(rand() % 31 + 1) + "/" + month + "/" + year;
+	}
+	else if (stoi(year) % 4 == 0 && month == "2") {
+		return to_string(rand() % 29 + 1) + "/" + month + "/" + year;
+	}
+	else if (month=="2") {
+		return to_string(rand() % 28 + 1) + "/" + month + "/" + year;
+	}
+	return to_string(rand() % 30 + 1) + "/" + month + "/" + year;
+	
+}
+
+string randomStatus() {
+	string st[3] = {"In use", "Not active", "Archived"};
+	return st[rand() % 3];
+}
+
+string randomSchoolName() {
+	string name[12] = { "Preslavski","Mehano","Elektro","Toha",
+					"Vasil Aprilov","Tyrgovska","Muzikalno","Himiqta",
+					"Kiril i Metodi", "Morskoto","PGKPI","Matematicheska" };
+	return name[rand() % 12] + to_string(rand() % 98 + 1);
+}
+
+string randomCity() {
+	string citys[20] = { "Burgas","Yambol","Varna","Sofiq", "Silistra",
+					"Gabrovo", "Pernik", "Kazanlyk","Koprivchica","Bansko",
+					"Plovdiv", "Shumen", "Lovech", "Vidin", "Smolqn",
+					"Ruse","Pleven", "Dobrich","Stara Zagora", "Karlovo" };
+	return citys[rand() % 20];
 }

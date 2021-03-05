@@ -15,3 +15,11 @@ string randomRole();
 string randomEmail();
 
 string randomTeamName();
+
+string randomDate();
+
+string randomStatus();
+
+string randomSchoolName();
+
+string randomCity();
