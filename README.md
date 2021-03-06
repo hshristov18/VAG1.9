@@ -52,7 +52,7 @@ Our goal.....
 - MVAtanasov18@codingburgas.bg
 - IIDimov18@codingburgas.bg
 
--[Back To The Top](#read-me-template)
+[Back To The Top](#read-me-template)
 
 ---
 
