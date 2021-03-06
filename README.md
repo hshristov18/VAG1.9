@@ -1,4 +1,4 @@
-### Vag.19
+#Vag.19
 
 ![Project Image](project-image-url)
 ---
@@ -16,7 +16,7 @@ You're sections headers will be used to reference location of destination.
 ## Description
 Our goal.....
 ### Role
-- Scrum trainer - Kaloyan Andrikov KNAndrikov18@codingburgas.bg
+- Scrum trainer - Kaloyan Andrikov
 - QA engineer- Kaloyan Andrikov
 - Front-end - Martin Atanasov 
 - Back-end - Ivan Dimov
@@ -45,14 +45,17 @@ Our goal.....
 
 ### Used technologies
 
-- Technology 1
-- Technology 2
+- Visual studio 2019
+- Discord
+- Windows
+- GitHub
+- Word
+- Excel
+- DrawIo
 ### Contact us
 - KNAndrikov18@codingburgas.bg
 - MVAtanasov18@codingburgas.bg
 - IIDimov18@codingburgas.bg
-
-[Back To The Top](#Vag1.9)
 
 ---
 
