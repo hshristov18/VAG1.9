@@ -15,13 +15,6 @@ A list of technologies used within the project:
 * [Library name](https://example.com): Version 1234
 ## Installation
 ***
-```
-$ git clone https://example.com
-$ cd ../path/to/the/file
-$ npm install
-$ npm start
-```
-Side information: To use the application in a special environment use ```lorem ipsum``` to start
 ## Collaboration
 ***
 > Maybe you want to write a quote in this part. 
