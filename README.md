@@ -9,19 +9,23 @@ You're sections headers will be used to reference location of destination.
 - [Used technologies](#used-technologies)
 - [Our team](#our-team)
 - [Role](#role) 
+- [Contact](#contact-us)
 
 ---
 
 ## Description
 Our goal.....
 ### Role
-
+- Scrum trainer - Kaloyan Andrikov KNAndrikov18@codingburgas.bg
+- QA engineer- Kaloyan Andrikov
+- Front-end - Martin Atanasov 
+- Back-end - Ivan Dimov
 ### Our team
 <table>
   <thead>
     <tr>
       <td align="left">
-        :information_source: VAG1.9 Team
+<img src="https://media.discordapp.net/attachments/807241767974862858/817871387909160970/Z.jpg" alt="Girl in a jacket" width="35" height="35">     Team VAG1.9
       </td>
     </tr>
   </thead>
@@ -43,8 +47,12 @@ Our goal.....
 
 - Technology 1
 - Technology 2
+### Contact us
+- KNAndrikov18@codingburgas.bg
+- MVAtanasov18@codingburgas.bg
+- IIDimov18@codingburgas.bg
 
-[Back To The Top](#read-me-template)
+-[Back To The Top](#read-me-template)
 
 ---
 
