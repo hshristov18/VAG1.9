@@ -14,6 +14,8 @@ You're sections headers will be used to reference location of destination.
 
 ## Description
 Our goal.....
+### Role
+
 ### Our team
 <table>
   <thead>
@@ -35,7 +37,7 @@ Our goal.....
     </tr>
   </tbody>
 </table>
-### Role
+
 
 ### Used technologies
 
