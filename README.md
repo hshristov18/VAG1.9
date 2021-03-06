@@ -15,11 +15,6 @@ You're sections headers will be used to reference location of destination.
 
 ## Description
 Our goal.....
-### Role
-- Scrum trainer - Kaloyan Andrikov
-- QA engineer- Kaloyan Andrikov
-- Front-end - Martin Atanasov 
-- Back-end - Ivan Dimov
 ### Our team
 <table>
   <thead>
@@ -41,6 +36,13 @@ Our goal.....
     </tr>
   </tbody>
 </table>
+
+### Role
+- Scrum trainer - Kaloyan Andrikov
+- QA engineer- Kaloyan Andrikov
+- Front-end - Martin Atanasov 
+- Back-end - Ivan Dimov
+
 
 
 ### Used technologies
