@@ -27,9 +27,6 @@
     <ClInclude Include="Main.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\MARTIN~1\AppData\Local\Temp\Rar$DRa14964.12956\source\ctl_one\resource.h">
-      <Filter>Resource Files</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -45,7 +42,7 @@
     <Image Include="small.ico">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="win-table.ico">
+    <Image Include="Main.ico">
       <Filter>Resource Files</Filter>
     </Image>
   </ItemGroup>
