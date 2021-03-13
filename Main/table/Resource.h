@@ -5,7 +5,7 @@
 #define IDM_CONTEXT_MENU                103
 #define IDI_DISK                        104
 #define IDM_EXIT                        100
-#define IDM_ABOUT                       101
+#define IDM_ABOUT                       110
 #define IDM_LARGE_ICONS                 200
 #define IDM_SMALL_ICONS                 201
 #define IDM_LIST                        202

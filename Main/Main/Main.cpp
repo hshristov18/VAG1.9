@@ -4,10 +4,15 @@
 #include <tchar.h>
 #include <stdio.h>
 #include <vector>
+#pragma comment(lib, "comctl32.lib")
 #include "Resource.h"
+#include "VListVw.h"
 using namespace std;
 const wchar_t g_szClassName[] = TEXT("myWindowClass");
 HINSTANCE hInst;
+HINSTANCE hInstPrev;
+LPSTR g_lpCmdLine;
+int g_nCmdShow;
 
 INT_PTR CALLBACK AboutDlgProc(HWND hDlg,
     UINT uMessage,
@@ -97,8 +102,15 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam)
         switch (LOWORD(wParam))
         {
         case IDB_EXIT:PostQuitMessage(0); break;
-        case IDB_SHOW_DATA:MessageBox(hwnd, TEXT("DEV NEEDS TIME"),
-            TEXT("File"), MB_OK); break;
+        case IDB_SHOW_DATA:
+        {
+            int test = WinTable(hInst, hInstPrev, g_lpCmdLine, g_nCmdShow);
+            if (test == -1 or test == 1)
+            {
+                MessageBox(hwnd, TEXT("DEV NEEDS Info"),
+                    TEXT("File"), MB_OK);
+            }
+        }break;
         case IDB_EDIT_DATA:MessageBox(hwnd, TEXT("DEV NEEDS COFFEE"),
             TEXT("File"), MB_OK); break;
         }
@@ -130,6 +142,9 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam)
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
     LPSTR lpCmdLine, int nCmdShow)
 {
+    hInstPrev = hPrevInstance;
+    g_lpCmdLine = lpCmdLine;
+    g_nCmdShow = nCmdShow;
     WNDCLASSEX wc;
     HWND hwnd;
     MSG Msg;

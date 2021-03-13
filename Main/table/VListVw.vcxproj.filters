@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="VListVw.c">
+    <ClCompile Include="VListVw.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
