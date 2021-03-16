@@ -10,7 +10,6 @@
 ---
 
 ## Description
-Our goal.....
 ### Our team
 <table>
   <thead>
