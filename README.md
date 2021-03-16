@@ -1,10 +1,6 @@
-# Vag.19
-
-![Project Image](project-image-url)
+# Vag1.9
 ---
 ### Table of Contents
-You're sections headers will be used to reference location of destination.
-
 - [Description](#description)
 - [Used technologies](#used-technologies)
 - [Our team](#our-team)
